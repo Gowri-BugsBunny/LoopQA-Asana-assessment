@@ -15,8 +15,6 @@ setup('authenticate', async ({ page }) => {
   );
   await page.waitForLoadState('networkidle');
   await page.waitForTimeout(2000); 
-  // Wait for login to complete
-  // await page.waitForURL('**/projects'); // Adjust to your actual URL after login
   
   // Save authentication state
   await page.context().storageState({ path: authFile });

@@ -28,7 +28,6 @@ export class ProjectPage {
   }
 
   async verifyTaskTags(taskName: string, expectedTags: string[]) {
-    // Get the specific task card container
     const taskCard = this.page.locator(`div.bg-white:has-text("${taskName}")`).first();
     // Verify each expected tag exists within THIS specific task card
     for (const tag of expectedTags) {
