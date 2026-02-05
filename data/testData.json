@@ -1,0 +1,56 @@
+{
+  "loginCredentials": {
+    "email": "admin",
+    "password": "password123"
+  },
+  "testCases": [
+    {
+      "id": "TC01",
+      "description": "Verify 'Implement user authentication' task in Web Application",
+      "project": "Web Application",
+      "taskName": "Implement user authentication",
+      "expectedColumn": "To Do",
+      "expectedTags": ["Feature", "High Priority"]
+    },
+    {
+      "id": "TC02",
+      "description": "Verify 'Fix navigation bug' task in Web Application",
+      "project": "Web Application",
+      "taskName": "Fix navigation bug",
+      "expectedColumn": "To Do",
+      "expectedTags": ["Bug"]
+    },
+    {
+      "id": "TC03",
+      "description": "Verify 'Design system updates' task in Web Application",
+      "project": "Web Application",
+      "taskName": "Design system updates",
+      "expectedColumn": "In Progress",
+      "expectedTags": ["Design"]
+    },
+    {
+      "id": "TC04",
+      "description": "Verify 'Push notification system' task in Mobile Application",
+      "project": "Mobile Application",
+      "taskName": "Push notification system",
+      "expectedColumn": "To Do",
+      "expectedTags": ["Feature"]
+    },
+    {
+      "id": "TC05",
+      "description": "Verify 'Offline mode' task in Mobile Application",
+      "project": "Mobile Application",
+      "taskName": "Offline mode",
+      "expectedColumn": "In Progress",
+      "expectedTags": ["Feature", "High Priority"]
+    },
+    {
+      "id": "TC06",
+      "description": "Verify 'App icon design' task in Mobile Application",
+      "project": "Mobile Application",
+      "taskName": "App icon design",
+      "expectedColumn": "Done",
+      "expectedTags": ["Design"]
+    }
+  ]
+}
